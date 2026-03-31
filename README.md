@@ -25,24 +25,20 @@ Durante o desenvolvimento, eu:
 ### 💌 Cadastro de usuário
 Criei um formulário onde o usuário pode se cadastrar com email e senha e utilizei o Firebase para registrar. Também tratei erros como email inválido, senha fraca e usuário já existente.
 
-<!-- COLE A IMAGEM DO CADASTRO AQUI -->
-![Cadastro](COLE_AQUI)
+<img width="1920" height="955" alt="cadastro" src="https://github.com/user-attachments/assets/cd81c58b-278c-442f-8d41-dca9dbd6d00f" />
 
 ---
 
 ### 💙 Login
 Implementei o login permitindo que o usuário entre com email e senha. O sistema valida com o Firebase e mostra mensagens de sucesso ou erro.
 
-<!-- COLE A IMAGEM DO LOGIN AQUI -->
-![Login](COLE_AQUI)
+<img width="1920" height="963" alt="login" src="https://github.com/user-attachments/assets/9991d14e-d0d4-4632-af33-d1fb15f26875" />
 
 ---
 
 ### 💜 Controle de sessão
 Utilizei o `onAuthStateChanged` para verificar se o usuário está logado e manter a sessão ativa mesmo após recarregar a página.
-
-<!-- COLE A IMAGEM DO USUÁRIO LOGADO AQUI -->
-![Usuário Logado](COLE_AQUI)
+<img width="1920" height="963" alt="logado" src="https://github.com/user-attachments/assets/399a2a63-08fd-43e3-9888-4f0c38d139e5" />
 
 ---
 
@@ -50,25 +46,16 @@ Utilizei o `onAuthStateChanged` para verificar se o usuário está logado e mant
 A interface muda dependendo do estado do usuário:
 - Não autenticado: tela de login/cadastro  
 - Autenticado: mostra o email e botão de logout  
-
-<!-- COLE A IMAGEM DA INTERFACE AQUI -->
-![Interface](COLE_AQUI)
-
 ---
 
 ### ✨ Loading
-Adicionei um loading simples enquanto o sistema verifica a autenticação ou realiza login/cadastro.
 
-<!-- COLE A IMAGEM DO LOADING AQUI -->
-![Loading](COLE_AQUI)
+Adicionei um loading simples enquanto o sistema verifica a autenticação ou realiza login/cadastro.
 
 ---
 
 ### 🚪 Logout
 Implementei um botão de logout que encerra a sessão do usuário com Firebase.
-
-<!-- COLE A IMAGEM DO LOGOUT AQUI -->
-![Logout](COLE_AQUI)
 
 ---
 
